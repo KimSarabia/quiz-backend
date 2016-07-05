@@ -22,7 +22,7 @@ router.get('/:id', (req, res) => {
 });
 
 router.put('/:id', (req, res) => {
-  Question.updateQuestion(req.user._id, req.params.id, req.body, (err, updatedQuestion) => {
+  Question.updateQuestion(req.params.id, req.body, (err, updatedQuestion) => {
     res.status(err ? 400 : 200).send(err || updatedQuestion);
   });
 });
