@@ -1,13 +1,11 @@
 {
-  "name": "quiz-app-backend",
+  "name": "quiz",
   "version": "1.0.0",
-  "description": "MongoDB Backend Code",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
   },
-  "keywords": [],
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.1",
